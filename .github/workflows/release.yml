@@ -24,4 +24,4 @@ jobs:
             RipRangerUpdater.exe
             RipRangerInstaller.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
