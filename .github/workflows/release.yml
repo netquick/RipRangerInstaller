@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*' # Nur wenn ein Tag wie v1.0.0 gepusht wird
+  workflow_dispatch:
 
 jobs:
   release:
